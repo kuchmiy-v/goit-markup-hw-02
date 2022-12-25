@@ -7,32 +7,53 @@
 /* border 1px solid #E7E9FC */
 
 :root {
+        --hero-background-color: #2E2F42;
         --primary-text-color: #434455;
         --title-text-color: #2E2F42;
         --accent-color: #4D5AE5;
         --pimary-bg-color: #4D5AE5;
         --primary-white-color: #ffffff;
         --secondary-button-color: #F4F4FD;
+        --cards-bg-color: #F4F4FD;
 }
 
 body {
         background-color: #E5E5E5;
         color: var(--primary-text-color);
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+line-height: 1.5;
 }
 
-
+/* logo */
 .logo {
-        color: #2E2F42;
+        color: var(--title-text-color);
+        font-family: Raleway, sans-serif;
+font-size: 18px;
+line-height: 1.33;
+text-decoration: none;
 }
+
+
 
 .list {
         list-style: none;
 }
 
 /* site nav */
-.header-list .header-link {
+.header-list {
 color: var(--title-text-color);
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
 }
+
+.header-link {
+        color: var(--primary-text-color);
+        font-size: 16px;
+        line-height: 1.5;
+        text-decoration: none;
+        }
 
 .header-list .header-link:hover, 
 .header-list .header-link:focus {
@@ -46,24 +67,62 @@ color: var(--title-text-color);
 /* hero */
 
 .hero-title {
-        color: #ffffff;
+        color: var(--primary-white-color);
+        background-color: var(--hero-background-color);
+        font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
 }
 
 /* section */
+.section {
+        background-color: var(--cards-bg-color);
+}
 .section-title {
         color: var(--title-text-color);
+        font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
 }
 
 .section-after-title {
         color: var(--primary-text-color);
+        font-size: 16px;
+line-height: 1.5;
 }
 
 .works-title {
         color: var(--title-text-color);
+        font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
+}
+
+.team-title {
+        color: var(--title-text-color);
+        font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
+}
+
+.card-title {
+color: var(--title-text-color);
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
 }
 
 .card-text {
         color: var(--primary-text-color);
+        font-size: 16px;
+line-height: 1.5;
+text-align: center;
 }
 
 /* button */
@@ -71,14 +130,23 @@ color: var(--title-text-color);
 .button {
         color: #ffffff;
         background-color: var(--pimary-bg-color);
+        font-weight: 600;
+font-size: 16px;
+line-height: 1.2;
 }
 
 .button.primary {
         color: var(--primary-white-color);
         background-color: var(--accent-color);
+        text-decoration: none;
 }
 
 .button.secondary {
         color: var(--accent-color);
         background-color: var(--secondary-button-color);
+}
+
+footer {
+        color: #E7E9FC;
+        background-color: var(--hero-background-color);
 }
