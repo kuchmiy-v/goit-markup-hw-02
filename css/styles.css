@@ -1,3 +1,84 @@
+/* лого #4D5AE5, #2E2F42 */
+/* акцент кнопка, ховер #4D5AE5 */
+/* колір заголовків #2E2F42 */
+/* осн. текст #434455 */
+/* фон #E5E5E5 */
+/* фон кнопок #F4F4FD */
+/* border 1px solid #E7E9FC */
+
+:root {
+        --primary-text-color: #434455;
+        --title-text-color: #2E2F42;
+        --accent-color: #4D5AE5;
+        --pimary-bg-color: #4D5AE5;
+        --primary-white-color: #ffffff;
+        --secondary-button-color: #F4F4FD;
+}
+
 body {
-        font-family: 'Open Sans', sans-serif;
+        background-color: #E5E5E5;
+        color: var(--primary-text-color);
+}
+
+
+.logo {
+        color: #2E2F42;
+}
+
+.list {
+        list-style: none;
+}
+
+/* site nav */
+.header-list .header-link {
+color: var(--title-text-color);
+}
+
+.header-list .header-link:hover, 
+.header-list .header-link:focus {
+        color: var(--accent-color);
+}
+
+.header-list .header-link.current{
+        color: var(--accent-color);
+}
+
+/* hero */
+
+.hero-title {
+        color: #ffffff;
+}
+
+/* section */
+.section-title {
+        color: var(--title-text-color);
+}
+
+.section-after-title {
+        color: var(--primary-text-color);
+}
+
+.works-title {
+        color: var(--title-text-color);
+}
+
+.card-text {
+        color: var(--primary-text-color);
+}
+
+/* button */
+
+.button {
+        color: #ffffff;
+        background-color: var(--pimary-bg-color);
+}
+
+.button.primary {
+        color: var(--primary-white-color);
+        background-color: var(--accent-color);
+}
+
+.button.secondary {
+        color: var(--accent-color);
+        background-color: var(--secondary-button-color);
 }
