@@ -34,6 +34,13 @@ line-height: 1.33;
 text-decoration: none;
 }
 
+.footer-logo {
+        color: var(--secondary-button-color);
+        font-family: Raleway, sans-serif;
+font-size: 18px;
+line-height: 1.33;
+text-decoration: none;
+}
 
 
 .list {
@@ -123,6 +130,22 @@ text-align: center;
         font-size: 16px;
 line-height: 1.5;
 text-align: center;
+}
+
+.portf-card-text {
+        color: var(--cards-bg-color);
+        font-size: 16px;
+line-height: 1.5;
+}
+
+.portf-card-item{
+        text-decoration: none;
+}
+
+.card-category {
+        color: var(--primary-text-color);
+        font-size: 16px;
+line-height: 1.5;
 }
 
 /* button */
