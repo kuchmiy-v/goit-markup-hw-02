@@ -135,6 +135,12 @@ body {
   text-align: center;
 }
 
+.card-category {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .portf-card-text {
   color: var(--cards-bg-color);
   font-size: 16px;
@@ -145,11 +151,6 @@ body {
   text-decoration: none;
 }
 
-.card-category {
-  color: var(--primary-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-}
 
 /* button */
 
@@ -162,12 +163,14 @@ body {
 }
 
 .button.primary {
+  font-family: Roboto, sans-serif;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   text-decoration: none;
 }
 
 .button.secondary {
+  font-family: Roboto, sans-serif;
   color: var(--accent-color);
   background-color: var(--secondary-button-color);
 }
